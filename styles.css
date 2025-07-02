@@ -1,10 +1,11 @@
-
+/* Base Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   background: #f9f9f9;
   color: #333;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -38,10 +39,14 @@ nav a:hover {
   color: #ffd700;
 }
 
-section {
-  padding: 40px 20px;
+main {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  padding: 40px 20px;
 }
 
 #services {
@@ -71,6 +76,23 @@ blockquote {
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
 
+footer {
+  background: #121212;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 /* WhatsApp Floating Button */
 .whatsapp-float {
   position: fixed;
@@ -89,12 +111,4 @@ blockquote {
 .whatsapp-float img {
   width: 48px;
   height: 48px;
-}
-
-footer {
-  background: #121212;
-  color: #fff;
-  text-align: center;
-  padding: 30px 20px;
-  font-size: 14px;
 }
