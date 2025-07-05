@@ -76,50 +76,6 @@ blockquote {
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
 
-#trust {
-  background-color: #ffffff;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.trust-metrics {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-  justify-items: center;
-}
-
-.metric {
-  background: #f4f4f4;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease;
-}
-
-.metric:hover {
-  transform: scale(1.05);
-}
-
-.metric img {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 10px;
-}
-
-.metric h3 {
-  font-size: 1.8rem;
-  margin: 0;
-  color: #121212;
-}
-
-.metric p {
-  margin-top: 10px;
-  font-size: 0.95rem;
-  color: #555;
-}
-
 footer {
   background: #121212;
   color: #fff;
