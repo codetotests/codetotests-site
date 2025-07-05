@@ -55,6 +55,52 @@ section {
   gap: 20px;
 }
 
+/* Job Support Section Styling */
+.highlight-section {
+  background-color: #fffdf5;
+  padding: 40px 20px;
+  border-left: 6px solid #ffd700;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+}
+
+.highlight-section h2 {
+  color: #222;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.support-points {
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.support-points li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.cta-job-support {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  background: #fff3d1;
+  padding: 12px 20px;
+  border-left: 5px solid #25d366;
+  border-radius: 6px;
+}
+
+.cta-job-support a {
+  color: #25d366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-job-support a:hover {
+  text-decoration: underline;
+}
+
 .service {
   background: #ffffff;
   padding: 20px;
