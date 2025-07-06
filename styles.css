@@ -49,21 +49,6 @@ section {
   padding: 40px 20px;
 }
 
-.cta-button {
-  display: inline-block;
-  background-color: #ffd700;
-  color: #121212;
-  padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-top: 20px;
-}
-
-.cta-button:hover {
-  background-color: #e6c200;
-}
-
 #services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
